@@ -17,4 +17,10 @@
 
 - Create New Database Using `npx sequelize db:create`.
 
-- 
+- Creating New Model
+`npx sequelize model:generate --name Booking --attributes userId:integer,flightId:integer,status:enum `
+
+- Migration of Database
+`npx sequelize db:migrate`
+
+- Migrations Shows Incremental changes in Project !!
