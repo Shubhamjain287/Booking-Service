@@ -23,4 +23,7 @@
 - Migration of Database
 `npx sequelize db:migrate`
 
-- Migrations Shows Incremental changes in Project !!
+- Migrations Shows Incremental changes in Project, So adding 2 more coloums `noOfSeats and totalCost` in Database.
+`npx sequelize migration:create --name modify_bookings_add_new_fields`
+
+`npx sequelize db:migrate `
